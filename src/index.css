@@ -11,13 +11,14 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 40%;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 20px;
+   background: url("https://assets.codepen.io/756881/asfalt-light.png"),
+  linear-gradient(to top, #5ee7df 0%, #b490ca 50%);
 }
 
 .header {
@@ -44,9 +45,6 @@ body {
 .btn:focus {
   outline: none;
 }
-.btn:hover {
-  background: #000;
-  color: #fff;}
 
 .btn:active {
   transform: scale(0.98);
